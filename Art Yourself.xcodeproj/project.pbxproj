@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		717C84D7249C59FB00D74AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717C84D6249C59FB00D74AC4 /* AppDelegate.swift */; };
+		717C84D9249C59FB00D74AC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717C84D8249C59FB00D74AC4 /* SceneDelegate.swift */; };
+		717C84DB249C59FB00D74AC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717C84DA249C59FB00D74AC4 /* ViewController.swift */; };
+		717C84DE249C59FB00D74AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717C84DC249C59FB00D74AC4 /* Main.storyboard */; };
+		717C84E0249C5A0000D74AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717C84DF249C5A0000D74AC4 /* Assets.xcassets */; };
+		717C84E3249C5A0000D74AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717C84E1249C5A0000D74AC4 /* LaunchScreen.storyboard */; };
+		717C84EE249C5A0000D74AC4 /* Art_YourselfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717C84ED249C5A0000D74AC4 /* Art_YourselfTests.swift */; };
+		717C84F9249C5A0000D74AC4 /* Art_YourselfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717C84F8249C5A0000D74AC4 /* Art_YourselfUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		717C84EA249C5A0000D74AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717C84CB249C59FB00D74AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717C84D2249C59FB00D74AC4;
+			remoteInfo = "Art Yourself";
+		};
+		717C84F5249C5A0000D74AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717C84CB249C59FB00D74AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717C84D2249C59FB00D74AC4;
+			remoteInfo = "Art Yourself";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		717C84D3249C59FB00D74AC4 /* Art Yourself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art Yourself.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717C84D6249C59FB00D74AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		717C84D8249C59FB00D74AC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		717C84DA249C59FB00D74AC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		717C84DD249C59FB00D74AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		717C84DF249C5A0000D74AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		717C84E2249C5A0000D74AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		717C84E4249C5A0000D74AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717C84E9249C5A0000D74AC4 /* Art YourselfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Art YourselfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717C84ED249C5A0000D74AC4 /* Art_YourselfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Art_YourselfTests.swift; sourceTree = "<group>"; };
+		717C84EF249C5A0000D74AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717C84F4249C5A0000D74AC4 /* Art YourselfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Art YourselfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717C84F8249C5A0000D74AC4 /* Art_YourselfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Art_YourselfUITests.swift; sourceTree = "<group>"; };
+		717C84FA249C5A0000D74AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		717C84D0249C59FB00D74AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717C84E6249C5A0000D74AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717C84F1249C5A0000D74AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		717C84CA249C59FB00D74AC4 = {
+			isa = PBXGroup;
+			children = (
+				717C84D5249C59FB00D74AC4 /* Art Yourself */,
+				717C84EC249C5A0000D74AC4 /* Art YourselfTests */,
+				717C84F7249C5A0000D74AC4 /* Art YourselfUITests */,
+				717C84D4249C59FB00D74AC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		717C84D4249C59FB00D74AC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				717C84D3249C59FB00D74AC4 /* Art Yourself.app */,
+				717C84E9249C5A0000D74AC4 /* Art YourselfTests.xctest */,
+				717C84F4249C5A0000D74AC4 /* Art YourselfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		717C84D5249C59FB00D74AC4 /* Art Yourself */ = {
+			isa = PBXGroup;
+			children = (
+				717C84D6249C59FB00D74AC4 /* AppDelegate.swift */,
+				717C84D8249C59FB00D74AC4 /* SceneDelegate.swift */,
+				717C84DA249C59FB00D74AC4 /* ViewController.swift */,
+				717C84DC249C59FB00D74AC4 /* Main.storyboard */,
+				717C84DF249C5A0000D74AC4 /* Assets.xcassets */,
+				717C84E1249C5A0000D74AC4 /* LaunchScreen.storyboard */,
+				717C84E4249C5A0000D74AC4 /* Info.plist */,
+			);
+			path = "Art Yourself";
+			sourceTree = "<group>";
+		};
+		717C84EC249C5A0000D74AC4 /* Art YourselfTests */ = {
+			isa = PBXGroup;
+			children = (
+				717C84ED249C5A0000D74AC4 /* Art_YourselfTests.swift */,
+				717C84EF249C5A0000D74AC4 /* Info.plist */,
+			);
+			path = "Art YourselfTests";
+			sourceTree = "<group>";
+		};
+		717C84F7249C5A0000D74AC4 /* Art YourselfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				717C84F8249C5A0000D74AC4 /* Art_YourselfUITests.swift */,
+				717C84FA249C5A0000D74AC4 /* Info.plist */,
+			);
+			path = "Art YourselfUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		717C84D2249C59FB00D74AC4 /* Art Yourself */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717C84FD249C5A0100D74AC4 /* Build configuration list for PBXNativeTarget "Art Yourself" */;
+			buildPhases = (
+				717C84CF249C59FB00D74AC4 /* Sources */,
+				717C84D0249C59FB00D74AC4 /* Frameworks */,
+				717C84D1249C59FB00D74AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Art Yourself";
+			productName = "Art Yourself";
+			productReference = 717C84D3249C59FB00D74AC4 /* Art Yourself.app */;
+			productType = "com.apple.product-type.application";
+		};
+		717C84E8249C5A0000D74AC4 /* Art YourselfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717C8500249C5A0100D74AC4 /* Build configuration list for PBXNativeTarget "Art YourselfTests" */;
+			buildPhases = (
+				717C84E5249C5A0000D74AC4 /* Sources */,
+				717C84E6249C5A0000D74AC4 /* Frameworks */,
+				717C84E7249C5A0000D74AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717C84EB249C5A0000D74AC4 /* PBXTargetDependency */,
+			);
+			name = "Art YourselfTests";
+			productName = "Art YourselfTests";
+			productReference = 717C84E9249C5A0000D74AC4 /* Art YourselfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		717C84F3249C5A0000D74AC4 /* Art YourselfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717C8503249C5A0100D74AC4 /* Build configuration list for PBXNativeTarget "Art YourselfUITests" */;
+			buildPhases = (
+				717C84F0249C5A0000D74AC4 /* Sources */,
+				717C84F1249C5A0000D74AC4 /* Frameworks */,
+				717C84F2249C5A0000D74AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717C84F6249C5A0000D74AC4 /* PBXTargetDependency */,
+			);
+			name = "Art YourselfUITests";
+			productName = "Art YourselfUITests";
+			productReference = 717C84F4249C5A0000D74AC4 /* Art YourselfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		717C84CB249C59FB00D74AC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = whoisyingdong;
+				TargetAttributes = {
+					717C84D2249C59FB00D74AC4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					717C84E8249C5A0000D74AC4 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 717C84D2249C59FB00D74AC4;
+					};
+					717C84F3249C5A0000D74AC4 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 717C84D2249C59FB00D74AC4;
+					};
+				};
+			};
+			buildConfigurationList = 717C84CE249C59FB00D74AC4 /* Build configuration list for PBXProject "Art Yourself" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 717C84CA249C59FB00D74AC4;
+			productRefGroup = 717C84D4249C59FB00D74AC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				717C84D2249C59FB00D74AC4 /* Art Yourself */,
+				717C84E8249C5A0000D74AC4 /* Art YourselfTests */,
+				717C84F3249C5A0000D74AC4 /* Art YourselfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		717C84D1249C59FB00D74AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717C84E3249C5A0000D74AC4 /* LaunchScreen.storyboard in Resources */,
+				717C84E0249C5A0000D74AC4 /* Assets.xcassets in Resources */,
+				717C84DE249C59FB00D74AC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717C84E7249C5A0000D74AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717C84F2249C5A0000D74AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		717C84CF249C59FB00D74AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717C84DB249C59FB00D74AC4 /* ViewController.swift in Sources */,
+				717C84D7249C59FB00D74AC4 /* AppDelegate.swift in Sources */,
+				717C84D9249C59FB00D74AC4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717C84E5249C5A0000D74AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717C84EE249C5A0000D74AC4 /* Art_YourselfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717C84F0249C5A0000D74AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717C84F9249C5A0000D74AC4 /* Art_YourselfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		717C84EB249C5A0000D74AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 717C84D2249C59FB00D74AC4 /* Art Yourself */;
+			targetProxy = 717C84EA249C5A0000D74AC4 /* PBXContainerItemProxy */;
+		};
+		717C84F6249C5A0000D74AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 717C84D2249C59FB00D74AC4 /* Art Yourself */;
+			targetProxy = 717C84F5249C5A0000D74AC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		717C84DC249C59FB00D74AC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717C84DD249C59FB00D74AC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		717C84E1249C5A0000D74AC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717C84E2249C5A0000D74AC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		717C84FB249C5A0100D74AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		717C84FC249C5A0100D74AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		717C84FE249C5A0100D74AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art Yourself/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisyingdong.Art-Yourself";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		717C84FF249C5A0100D74AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art Yourself/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisyingdong.Art-Yourself";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		717C8501249C5A0100D74AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art YourselfTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisyingdong.Art-YourselfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Art Yourself.app/Art Yourself";
+			};
+			name = Debug;
+		};
+		717C8502249C5A0100D74AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art YourselfTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisyingdong.Art-YourselfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Art Yourself.app/Art Yourself";
+			};
+			name = Release;
+		};
+		717C8504249C5A0100D74AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art YourselfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisyingdong.Art-YourselfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Art Yourself";
+			};
+			name = Debug;
+		};
+		717C8505249C5A0100D74AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Art YourselfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisyingdong.Art-YourselfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Art Yourself";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		717C84CE249C59FB00D74AC4 /* Build configuration list for PBXProject "Art Yourself" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717C84FB249C5A0100D74AC4 /* Debug */,
+				717C84FC249C5A0100D74AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717C84FD249C5A0100D74AC4 /* Build configuration list for PBXNativeTarget "Art Yourself" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717C84FE249C5A0100D74AC4 /* Debug */,
+				717C84FF249C5A0100D74AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717C8500249C5A0100D74AC4 /* Build configuration list for PBXNativeTarget "Art YourselfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717C8501249C5A0100D74AC4 /* Debug */,
+				717C8502249C5A0100D74AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717C8503249C5A0100D74AC4 /* Build configuration list for PBXNativeTarget "Art YourselfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717C8504249C5A0100D74AC4 /* Debug */,
+				717C8505249C5A0100D74AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 717C84CB249C59FB00D74AC4 /* Project object */;
+}
